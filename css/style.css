@@ -22,8 +22,25 @@ body {
   background-color: var(--shoe-background);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--shoe-font-heading);
 }
 
 /* Schrijf je aanvullende CSS hieronder. */
+
+/* navbar */
+
+.navbar-brand {
+  width: 98px;
+  min-height: 72px;
+  border-right: 6px solid var(--shoe-orange);
+}
+
+.nav-link.active {
+  color: var(--shoe-orange) !important;
+}
